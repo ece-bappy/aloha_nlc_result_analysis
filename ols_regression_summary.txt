@@ -1,0 +1,81 @@
+Regression Summary for 2018:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Marks   R-squared:                       0.092
+Model:                            OLS   Adj. R-squared:                  0.091
+Method:                 Least Squares   F-statistic:                     128.8
+Date:                Mon, 10 Jun 2024   Prob (F-statistic):           1.67e-28
+Time:                        18:38:43   Log-Likelihood:                -4970.1
+No. Observations:                1273   AIC:                             9944.
+Df Residuals:                    1271   BIC:                             9954.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         45.4137      0.678     66.954      0.000      44.083      46.744
+Grade         -1.8263      0.161    -11.349      0.000      -2.142      -1.511
+==============================================================================
+Omnibus:                       23.832   Durbin-Watson:                   0.294
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               15.071
+Skew:                           0.116   Prob(JB):                     0.000534
+Kurtosis:                       2.520   Cond. No.                         8.86
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Regression Summary for 2022:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Marks   R-squared:                       0.010
+Model:                            OLS   Adj. R-squared:                  0.009
+Method:                 Least Squares   F-statistic:                     9.750
+Date:                Mon, 10 Jun 2024   Prob (F-statistic):            0.00185
+Time:                        18:38:43   Log-Likelihood:                -3682.7
+No. Observations:                 934   AIC:                             7369.
+Df Residuals:                     932   BIC:                             7379.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         31.4479      0.674     46.690      0.000      30.126      32.770
+Grade         -0.5191      0.166     -3.122      0.002      -0.845      -0.193
+==============================================================================
+Omnibus:                       65.224   Durbin-Watson:                   0.234
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               78.094
+Skew:                           0.708   Prob(JB):                     1.10e-17
+Kurtosis:                       3.041   Cond. No.                         6.94
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Regression Summary for 2024:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Marks   R-squared:                       0.257
+Model:                            OLS   Adj. R-squared:                  0.257
+Method:                 Least Squares   F-statistic:                     356.2
+Date:                Mon, 10 Jun 2024   Prob (F-statistic):           1.87e-68
+Time:                        18:38:43   Log-Likelihood:                -3851.0
+No. Observations:                1030   AIC:                             7706.
+Df Residuals:                    1028   BIC:                             7716.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         52.4409      0.535     98.029      0.000      51.391      53.491
+Grade         -2.9668      0.157    -18.874      0.000      -3.275      -2.658
+==============================================================================
+Omnibus:                       47.694   Durbin-Watson:                   1.549
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               29.215
+Skew:                           0.273   Prob(JB):                     4.53e-07
+Kurtosis:                       2.381   Cond. No.                         6.07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
