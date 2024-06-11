@@ -1,0 +1,56 @@
+Statistical Summary for 2018:
+Max Marks: 70
+Min Marks: 10
+Mean Marks: 38.73134328358209
+Mode Marks: 39
+Median Marks: 39.0
+Standard Deviation: 12.602913441089907
+Variance: 158.83342720360463
+25th Percentile: 29.0
+50th Percentile (Median): 39.0
+75th Percentile: 48.0
+
+================================================================================
+
+Statistical Summary for 2022:
+Max Marks: 69
+Min Marks: 10
+Mean Marks: 29.7762312633833
+Mode Marks: 26
+Median Marks: 28.0
+Standard Deviation: 12.549760861407165
+Variance: 157.4964976785071
+25th Percentile: 20.0
+50th Percentile (Median): 28.0
+75th Percentile: 37.75
+
+================================================================================
+
+Statistical Summary for 2023:
+Max Marks: 70
+Min Marks: 28
+Mean Marks: 45.45907473309609
+Mode Marks: 29
+Median Marks: 44.0
+Standard Deviation: 11.574878963871418
+Variance: 133.9778230282731
+25th Percentile: 36.0
+50th Percentile (Median): 44.0
+75th Percentile: 54.0
+
+================================================================================
+
+Statistical Summary for 2024:
+Max Marks: 70
+Min Marks: 28
+Mean Marks: 44.3126213592233
+Mode Marks: 29
+Median Marks: 42.0
+Standard Deviation: 11.812650559396737
+Variance: 139.53871323841602
+25th Percentile: 34.0
+50th Percentile (Median): 42.0
+75th Percentile: 54.0
+
+================================================================================
+

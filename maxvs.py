@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # List of CSV files and corresponding years
-csv_files = ['2018.csv', '2022.csv', '2024.csv']
-years = [2018, 2022, 2024]
+csv_files = ['2018j.csv','2022j.csv','2023j.csv', '2024j.csv']
+years = [2018, 2022,2023, 2024]
 
 # Dictionary to hold data for each year
 data_dict = {}
@@ -21,14 +21,14 @@ plt.figure(figsize=(10, 6))
 for year in years:
     plt.plot(data_dict[year]['Grade'], data_dict[year]['Max Marks'], marker='o', linestyle='-', label=f'{year}')
 
-plt.title('Maximum Marks vs Grade for Each Year')
-plt.xlabel('Grade')
+plt.title('Maximum Marks vs Level for Each Year')
+plt.xlabel('Level')
 plt.ylabel('Maximum Marks')
 plt.legend()
 plt.grid(True)
 
 # Save the plot as a high DPI image
-plt.savefig('max_marks_comparison.png', dpi=300)
+plt.savefig('Junior/max_marks_comparison.png', dpi=300)
 
 # Show the plot
 plt.show()

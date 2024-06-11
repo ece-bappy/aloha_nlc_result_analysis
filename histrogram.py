@@ -2,9 +2,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# List of CSV files and corresponding years
-csv_files = ['2018.csv', '2022.csv', '2024.csv']
-years = [2018, 2022, 2024]
+csv_files = ['2018j.csv','2022j.csv','2023j.csv', '2024j.csv']
+years = [2018, 2022,2023, 2024]
 
 # Read and combine data from all CSV files
 data_list = []
@@ -27,14 +26,14 @@ for grade in grades:
         subset = combined_data[(combined_data['Grade'] == grade) & (combined_data['Year'] == year)]
         sns.histplot(subset['Marks'], kde=True, label=f'{year}', element='step', stat='density', common_norm=False)
     
-    plt.title(f'Grade {grade} Marks Distribution Comparison')
+    plt.title(f'Level {grade} Marks Distribution Comparison')
     plt.xlabel('Marks')
     plt.ylabel('Density')
     plt.legend()
     plt.grid(True)
     
     # Save the plot as a high DPI image
-    plt.savefig(f'grade_{grade}_marks_distribution_comparison.png', dpi=300)
+    plt.savefig(f'Junior/grade_{grade}_marks_distribution_comparison.png', dpi=300)
     
     # Show the plot
     plt.show()

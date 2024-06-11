@@ -2,11 +2,11 @@ import pandas as pd
 import statsmodels.api as sm
 
 # List of CSV files and corresponding years
-csv_files = ['2018.csv', '2022.csv', '2024.csv']
+csv_files = ['2018j.csv', '2022j.csv', '2024j.csv']
 years = [2018, 2022, 2024]
 
 # Open a text file to save regression summaries
-with open('ols_regression_summary.txt', 'w') as f:
+with open('Junior/ols_regression_summary.txt', 'w') as f:
     # Loop through each CSV file and corresponding year
     for csv_file, year in zip(csv_files, years):
         # Read data
